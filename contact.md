@@ -4,9 +4,9 @@ title: Contact
 permalink: /contact/
 ---
 
-Get in touch if you'd like work with me, collaborate on cool projects or if you just want to say hello! 
+Get in touch if you'd like work on cool projects with me, or if you just want to say hello! 
 
-The contact form below was made with <a href="https://formspree.io">formspree</a> Don't forget to **tick the reCAPTCHA checkbox** in the next step, otherwise I won't get your message.
+The contact form below was made with <a href="https://formspree.io">formspree</a>. Don't forget to **tick the reCAPTCHA checkbox** in the next step, otherwise I won't get your message.
 
 <form class="wj-contact" action="https://formspree.io/f/mnqongob" method="POST">
     <input type="text" name="name" placeholder="Name" required>
