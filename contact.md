@@ -4,20 +4,13 @@ title: Contact
 permalink: /contact/
 ---
 
-<form
-  action="https://formspree.io/f/mnqongob"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
+<div id="contact">
+        <div id="contact-form">
+                <form action="https://formspree.io/f/mnqongob" method="POST">
+                <input type="hidden" name="_subject" value="Mail from portofolio" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Type your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
