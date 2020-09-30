@@ -4,8 +4,9 @@ title: Contact
 permalink: /contact/
 ---
 <form class="wj-contact" action="https://formspree.io/f/mnqongob" method="POST">
-    <input type="text" name="email" placeholder="Email Address">
-    <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="text" name="email" placeholder="Email Address" required>
+    <textarea type="text" name="content" rows="10" placeholder="Message" required></textarea>
     <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
     <input type="hidden" name="_subject" value="New Contact Form Submission">
     <input type="text" name="_gotcha" style="display:none">
@@ -19,7 +20,7 @@ form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
     margin-top: 0.25em;
     margin-bottom: 0.5em;
     padding: 0.75em;
-    font-family: monospace, sans-serif;
+    font-family: "Source Sans Pro", monospace, sans-serif;
     font-weight: lighter;
     border-style: solid;
     border-color: #444;
@@ -32,7 +33,7 @@ form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
 form.wj-contact input[type="submit"] {
     outline: none;
     color: white;
-    background-color: #2e83e6;
+    background-color: #000000;
     border-radius: 3px;
     padding: 0.5em;
     margin: 0.25em 0 0 0;
